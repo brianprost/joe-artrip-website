@@ -18,5 +18,5 @@ export const skills = [
     "Directing",
     "Ability to incite staff",
     "Collaboration",
-    "Comfortable communicating in regard to meeting client needs"
+    "Comfortable communicating in regard to meeting client needs",
 ];
