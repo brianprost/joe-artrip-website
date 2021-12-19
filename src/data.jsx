@@ -1,10 +1,10 @@
-export const portfolio = [
+export const projectPortfolio = [
 {
-        title: "",
-        subtitle: "",
-        description: "",
-        image: "",
-        link: "",
+        title: "Anker Charger Submission",
+        subtitle: "My submission for Anker's ad campaign",
+        description: "We were told to make people fear a dead phone battery more than anything else in the world. Mission accomplished.",
+        image: "./img/Artrip_Joseph_3.png",
+        link: "https://anker.com",
     },
 ];
 
