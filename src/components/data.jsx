@@ -1,3 +1,13 @@
+export const portfolio = [
+{
+        title: "",
+        subtitle: "",
+        description: "",
+        image: "",
+        link: "",
+    },
+];
+
 export const skills = [
     "Adobe Creative Cloud",
     "DaVinci Resolve",
@@ -9,4 +19,4 @@ export const skills = [
     "Ability to incite staff",
     "Collaboration",
     "Comfortable communicating in regard to meeting client needs"
-]
+];
