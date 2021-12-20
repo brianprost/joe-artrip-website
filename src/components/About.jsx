@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />
           </h1>
           <h2 className="sm:text-6xl text-6xl mb-6 font-bold text-white">
-            I'm a videographer in Washington, D.C.
+            I'm a <span className="drop-shadow-2xl">videographer</span> in Washington, D.C.
           </h2>
           <p className="mb-8 leading-relaxed font-medium">
             I'm a Video editor with 5 years of experience meeting clients’ needs
