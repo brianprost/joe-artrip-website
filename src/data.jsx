@@ -40,9 +40,9 @@ export const projectPortfolio = [
 export const skills = [
     "Adobe Creative Cloud",
     "DaVinci Resolve",
-    "Non-linear editing",
-    "Camera operation",
-    "Video archival",
+    "Non-Linear Editing",
+    "Camera Operation",
+    "Video Archival",
     "Screenwriting",
     "Directing",
     "Ability to incite staff",

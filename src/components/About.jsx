@@ -22,13 +22,13 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#sample-work"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-black bg-white border-2 py-2 px-6 focus:outline-white hover:text-white hover:bg-transparent rounded text-lg"
             >
               See My Work
             </a>
             <a
               href="#contact"
-              className="ml-4 inline-flex text-gray-40 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-white border-2 bg-transparent py-2 px-6 focus:outline-none hover:bg-neutral-300 hover:text-neutral-900 hover:text-bold rounded text-lg"
             >
               Get in Touch
             </a>
@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            src="./bio-pic.webp"
+            src="./img/bio-pic.webp"
             alt="joe-artrip-video-bio-pic"
             className="object-cover object-center rounded rounded-full"
           />
