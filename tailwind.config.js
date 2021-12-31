@@ -18,6 +18,9 @@ module.exports = {
           darkNavy: "#101E33",
         },
       },
+      backgroundImage: {
+        'hero-pattern': "url('../public/img/video-studio.jpg')",
+      },
     },
   },
   plugins: [],
