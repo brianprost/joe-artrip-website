@@ -20,7 +20,7 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#portfolio"
+              href="#sample-work"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               See My Work
@@ -37,7 +37,7 @@ export default function About() {
           <img
             src="./bio-pic.png"
             alt="joe-artrip-video-bio-pic"
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded rounded-full"
           />
         </div>
       </div>
