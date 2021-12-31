@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["'Work Sans'", ...defaultTheme.fontFamily.sans],
+        vhs: ["'Press Start 2P'", ...defaultTheme.fontFamily.mono],
+        lexend: ["'Lexend'", ...defaultTheme.fontFamily.sans]
       },
       colors: {
         "jacpRed": "#e63946",
