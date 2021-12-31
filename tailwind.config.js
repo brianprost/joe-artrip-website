@@ -19,7 +19,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero-pattern': "url('../public/img/video-studio.jpg')",
+        'hero-pattern': "url('../public/img/video-studio.webp')",
+        'vhs-pattern': "url('https://68.media.tumblr.com/595a5fa01fe53ca0e4ca8f37bacc849d/tumblr_nve67mJtue1tanofjo1_500.gif')",
       },
     },
   },
