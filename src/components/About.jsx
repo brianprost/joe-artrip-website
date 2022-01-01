@@ -14,8 +14,8 @@ export default function About() {
             Washington, D.C.
           </h2>
           <p className="mb-8 leading-relaxed font-medium">
-            I'm a Video editor with 5 years of experience meeting clients’ needs
-            while in fast-paced working environments. Worked a varied group of
+            I'm a video editor with 5 years of experience meeting clients needs
+            while in fast-paced working environments. I've worked a varied group of
             live production roles including producer, camera operation, and
             audio mixing.
           </p>

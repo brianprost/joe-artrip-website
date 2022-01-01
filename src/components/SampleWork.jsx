@@ -12,7 +12,7 @@ export default function SampleWork() {
                         Sample Work
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-tight text-xl font-lexend">
-                        I enjoy both live broadcast video work as well as video production projects. Here are a coupole samples of those.
+                        I enjoy both live broadcast video work as well as video production projects. Here are a couple samples of those.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
