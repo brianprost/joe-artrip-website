@@ -18,7 +18,7 @@ export default function SampleWork() {
                 <div className="flex flex-wrap -m-4">
                     {projectPortfolio.map((projectPortfolio) => (
                         <a href={projectPortfolio.link} key={projectPortfolio.image} target="_blank" rel="noreferrer noopener" className="sm:w-1/2 w-100 p-4">
-                            <div className="flex relative">
+                            <div className="flex relative h-full">
                                 <img src={projectPortfolio.image} alt="project example" className="absolute inset-0 w-full h-full object-cover object-center hover:hidden rounded-lg border-2 border-neutral-600" />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-neutral-800 bg-neutral-900 opacity-0 hover:opacity-100 transform hover:scale-110 transition duration-220 ease-in-out rounded-2xl">
                                     <h2 className="tracking-widest text-sm font-lexend font-medium text-jacpBlue-joeChoice mb-1">
