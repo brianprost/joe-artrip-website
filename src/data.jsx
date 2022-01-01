@@ -45,7 +45,4 @@ export const skills = [
     "Video Archival",
     "Screenwriting",
     "Directing",
-    "Ability to incite staff",
-    "Collaboration",
-    "Comfortable communicating in regard to meeting client needs",
 ];
