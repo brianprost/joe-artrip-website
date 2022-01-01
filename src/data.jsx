@@ -45,4 +45,5 @@ export const skills = [
     "Video Archival",
     "Screenwriting",
     "Directing",
+    "Producing",
 ];
