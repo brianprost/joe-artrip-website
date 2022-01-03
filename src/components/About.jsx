@@ -2,13 +2,20 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="overflow-hidden">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center min-h-fit">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-gradient-to-l from-transparent to-black lg:p-8 rounded-lg font-lexend">
           <h1 className="text-4xl md:text-4xl mb-4 font-extrabold text-white drop-shadow-1xl">
             Hi, I'm Joe Artrip.
             <br className="hidden lg:inline-block" />
           </h1>
+          <div className="h-1/2 md:w-1/2 w-2/5 md:hidden">
+          <img
+            src="./img/bio-pic.webp"
+            alt="joe-artrip-video-bio-pic"
+            className="object-cover object-center rounded-full"
+          />
+        </div>
           <h2 className="text-5xl pt-4 sm:text-6xl mb-6 font-bold text-white drop-shadow-2xl">
             I'm a videographer in Washington, D.C.
           </h2>
@@ -33,7 +40,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/5">
+        <div className="hidden md:contents lg:max-w-lg lg:w-full md:w-1/2 w-2/5">
           <img
             src="./img/bio-pic.webp"
             alt="joe-artrip-video-bio-pic"
