@@ -37,7 +37,7 @@ export default function About() {
           <img
             src="./img/bio-pic.webp"
             alt="joe-artrip-video-bio-pic"
-            className="object-cover object-center rounded rounded-full"
+            className="object-cover object-center rounded-full"
           />
         </div>
       </div>
