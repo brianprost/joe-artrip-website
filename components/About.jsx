@@ -10,12 +10,12 @@ export default function About() {
             <br className="hidden lg:inline-block" />
           </h1>
           <div className="h-1/2 md:w-1/2 w-2/5 md:hidden">
-          <img
-            src="./img/bio-pic.webp"
-            alt="joe-artrip-video-bio-pic"
-            className="object-cover object-center rounded-full"
-          />
-        </div>
+            <img
+              src="./img/bio-pic.webp"
+              alt="joe-artrip-video-bio-pic"
+              className="object-cover object-center rounded-full"
+            />
+          </div>
           <h2 className="text-5xl pt-4 sm:text-6xl mb-6 font-bold text-white drop-shadow-2xl">
             I'm a videographer in Washington, D.C.
           </h2>
