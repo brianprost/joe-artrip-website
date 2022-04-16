@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function About() {
@@ -9,11 +10,13 @@ export default function About() {
             Hi, I'm Joe Artrip.
             <br className="hidden lg:inline-block" />
           </h1>
-          <div className="h-1/2 md:w-1/2 w-2/5 md:hidden">
-            <img
-              src="./img/bio-pic.webp"
+          <div className="w-48 h-48 relative md:hidden">
+            <Image
+              src="/../public/img/bio-pic.webp"
+              objectFit="cover"
+              layout="fill"
               alt="joe-artrip-video-bio-pic"
-              className="object-cover object-center rounded-full"
+              className="rounded-full"
             />
           </div>
           <h2 className="text-5xl pt-4 sm:text-6xl mb-6 font-bold text-white drop-shadow-2xl">
@@ -40,13 +43,22 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="hidden md:contents lg:max-w-lg lg:w-full md:w-1/2 w-2/5">
+        <div className="hidden md:inline-flex relative w-[31rem] h-[31rem]">
+          <Image
+            src="/../public/img/bio-pic.webp"
+            layout="fill"
+            objectFit="cover"
+            alt="joe-artrip-video-bio-pic"
+            className="rounded-full"
+          />
+        </div>
+        {/* <div className="hidden md:contents lg:max-w-lg lg:w-full md:w-1/2 w-2/5">
           <img
             src="./img/bio-pic.webp"
             alt="joe-artrip-video-bio-pic"
             className="object-cover object-center rounded-full"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
