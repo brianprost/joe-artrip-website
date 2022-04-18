@@ -5,24 +5,13 @@ export default function Contact() {
   const linkedInUrl = "https://www.linkedin.com/in/josephartrip/";
   const emailAddress = "joe.h.artrip@gmail.com";
 
-  // const [referenceElement, setReferenceElement] = useState(null);
-  // const [popperElement, setPopperElement] = useState(null);
-  // const [arrowElement, setArrowElement] = useState(null);
-  // const { styles, attributes } = usePopper(referenceElement, popperElement, {
-  //   modifiers: [{ name: "arrow", options: { element: arrowElement } }],
-  // });
-
-  // const copyTooltip = () => {
-  //   createPopper
-  // }
-
   return (
     <section id="contact" className="bg-vhs-pattern-2">
       <div className="relative flex items-center justify-center min-h-screen sm:items-center sm:pt-0">
         <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
-            <div className="p-6 mr-2 bg-neutral-800 bg-opacity-60 rounded-lg">
-              <h1 className="text-4xl md:text-6xl text-white font-vhs tracking-tight mb-10">
+            <div className="p-6 mr-2 bg-neutral-800 bg-opacity-60 rounded-lg flex flex-col items-center">
+              <h1 className="text-4xl md:text-6xl text-white font-vhs tracking-tight mb-6">
                 Contact Me
               </h1>
               <div className="flex items-center mt-4 text-white  bg-neutral-500 rounded-lg bg-opacity-60 w-full md:w-2/3">
@@ -42,11 +31,6 @@ export default function Contact() {
                 >
                   linkedin.com/in/josephartrip
                 </div>
-                {/* <div
-                  className="relative w-auto p-2 min-w-max rounded-md shadow-md bg-neutral-500 left-48 text-xs"
-                >
-                  Click to copy
-                </div> */}
               </div>
 
               <div className="flex items-center mt-2 text-white bg-neutral-500 rounded-lg bg-opacity-60 w-full md:w-2/3">
