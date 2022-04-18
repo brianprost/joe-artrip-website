@@ -7,24 +7,24 @@ export default function Contact() {
 
   return (
     <section id="contact" className="bg-vhs-pattern-2">
-      <div className="relative flex items-center justify-center min-h-screen sm:items-center sm:pt-0">
-        <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
+      <div className="relative flex min-h-screen items-center justify-center sm:items-center sm:pt-0">
+        <div className="mx-auto max-w-6xl sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
-            <div className="p-6 mr-2 bg-neutral-800 bg-opacity-60 rounded-lg flex flex-col items-center">
-              <h1 className="text-4xl md:text-6xl text-white font-vhs tracking-tight mb-6">
+            <div className="mr-2 flex flex-col items-center rounded-lg bg-neutral-800 bg-opacity-60 p-6">
+              <h1 className="mb-6 font-vhs text-4xl tracking-tight text-white md:text-6xl">
                 Contact Me
               </h1>
-              <div className="flex items-center mt-4 text-white  bg-neutral-500 rounded-lg bg-opacity-60 w-full md:w-2/3">
+              <div className="mt-4 flex w-full items-center  rounded-lg bg-neutral-500 bg-opacity-60 text-white md:w-2/3">
                 <a
                   href="https://linkedin.com/in/josephartrip"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <FaLinkedinIn className="bg-neutral-700 rounded-lg border-2 text-5xl text-color-white p-2 hover:scale-110 hover:bg-neutral-600 hover:text-jacpBlue-joeChoice" />
+                  <FaLinkedinIn className="text-color-white rounded-lg border-2 bg-neutral-700 p-2 text-5xl hover:scale-110 hover:bg-neutral-600 hover:text-jacpBlue-joeChoice" />
                 </a>
 
                 <div
-                  className="ml-4 text-lg tracking-wide font-lexend w-40 select-all"
+                  className="ml-4 w-40 select-all font-lexend text-lg tracking-wide"
                   onClick={() => {
                     navigator.clipboard.writeText(linkedInUrl);
                   }}
@@ -33,12 +33,12 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center mt-2 text-white bg-neutral-500 rounded-lg bg-opacity-60 w-full md:w-2/3">
+              <div className="mt-2 flex w-full items-center rounded-lg bg-neutral-500 bg-opacity-60 text-white md:w-2/3">
                 <a href="mailto:joe.h.artrip@gmail.com">
-                  <FaEnvelopeOpenText className="bg-neutral-700 rounded-lg border-2 text-5xl text-color-white p-2 hover:scale-110 hover:bg-neutral-600 hover:text-jacpBlue-joeChoice" />
+                  <FaEnvelopeOpenText className="text-color-white rounded-lg border-2 bg-neutral-700 p-2 text-5xl hover:scale-110 hover:bg-neutral-600 hover:text-jacpBlue-joeChoice" />
                 </a>
                 <div
-                  className="ml-4 w-40 text-lg tracking-wide font-lexend select-all"
+                  className="ml-4 w-40 select-all font-lexend text-lg tracking-wide"
                   onClick={() => {
                     navigator.clipboard.writeText(emailAddress);
                   }}
