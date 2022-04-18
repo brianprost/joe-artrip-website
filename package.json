@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/lexend": "^4.5.7",
+    "@fontsource/press-start-2p": "^4.5.5",
+    "@fontsource/work-sans": "^4.5.7",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",

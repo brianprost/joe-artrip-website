@@ -22,16 +22,6 @@ class MyDocument extends Document {
             content="Joe Artrip, DC-based Videographer"
           />
           <meta property="og:image" content="%PUBLIC_URL%/img/bio-pic.webp" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin="true"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200..800&family=Lexend&family=Press+Start+2P&display=swap"
-            rel="stylesheet"
-          />
         </Head>
         <body>
           <Main />
