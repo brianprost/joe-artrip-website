@@ -27,10 +27,8 @@ export default function SampleWork() {
               className="sm:w-1/2 w-100 p-4"
             >
               <div className="flex relative h-full">
-                <Image
-                  src={sampleWorkProject.nextImageRoute}
-                  layout="fill"
-                  objectFit="cover"
+                <img
+                  src={sampleWorkProject.image}
                   alt="project example"
                   className="absolute inset-0 w-full h-full object-cover object-center hover:hidden rounded-lg border-2 border-neutral-600"
                 />
