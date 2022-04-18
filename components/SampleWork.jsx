@@ -1,4 +1,5 @@
 import { VideoCameraIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 import React from "react";
 import { sampleWorkData } from "../data/SampleWorkData";
 
@@ -26,8 +27,10 @@ export default function SampleWork() {
               className="sm:w-1/2 w-100 p-4"
             >
               <div className="flex relative h-full">
-                <img
-                  src={sampleWorkProject.image}
+                <Image
+                  src={sampleWorkProject.nextImageRoute}
+                  layout="fill"
+                  objectFit="cover"
                   alt="project example"
                   className="absolute inset-0 w-full h-full object-cover object-center hover:hidden rounded-lg border-2 border-neutral-600"
                 />
