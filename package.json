@@ -6,7 +6,7 @@
     "@fontsource/lexend": "^4.5.13",
     "@fontsource/press-start-2p": "^4.5.11",
     "@fontsource/work-sans": "^4.5.12",
-    "@heroicons/react": "^2.0.13",
+    "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
