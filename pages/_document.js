@@ -15,13 +15,13 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"
-            content="Joe Artrip, DC-based Videographer"
+            content="_"
           />
           <meta
             property="og:title"
-            content="Joe Artrip, DC-based Videographer"
+            content="_"
           />
-          <meta property="og:image" content="%PUBLIC_URL%/img/bio-pic.webp" />
+          {/* <meta property="og:image" content="%PUBLIC_URL%/img/bio-pic.webp" /> */}
         </Head>
         <body>
           <Main />

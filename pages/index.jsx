@@ -9,15 +9,15 @@ import Contact from "../components/Contact";
 const Home = () => {
   return (
     <>
-      <title>Joe Artrip, The Videographer</title>
+      <title>_</title>
       <main className="text-white">
         <div className="bg-vhs-pattern-animated">
-          <Navbar />
-          <About />
+          {/* <Navbar />
+          <About /> */}
         </div>
-        <SampleWork />
+        {/* <SampleWork />
         <Skills />
-        <Contact />
+        <Contact /> */}
       </main>
     </>
   );
