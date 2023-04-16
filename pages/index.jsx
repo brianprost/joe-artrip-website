@@ -1,12 +1,12 @@
 import React from "react";
-import Head from "next/head";
-import Navbar from "../components/Navbar";
-import About from "../components/About";
-import SampleWork from "../components/SampleWork";
-import Skills from "../components/Skills";
-import Contact from "../components/Contact";
+// import Navbar from "../components/Navbar";
+// import About from "../components/About";
+// import SampleWork from "../components/SampleWork";
+// import Skills from "../components/Skills";
+// import Contact from "../components/Contact";
 
-const Home = () => {
+export default function Home() {
+  console.error("Client requested the page to be blank temporarily.");
   return (
     <>
       <title>_</title>
@@ -21,6 +21,4 @@ const Home = () => {
       </main>
     </>
   );
-};
-
-export default Home;
+}
